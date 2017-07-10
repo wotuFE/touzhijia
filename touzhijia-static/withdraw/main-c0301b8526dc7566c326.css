@@ -1,0 +1,125 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "icon";
+  src: url("64ea023dc94d54369c652510f815fa07.woff") format("woff"), url("7a008c2f4c6950261813ddaba27ec602.ttf") format("truetype"), url("f97242a19dad0db5a1eadf14e416ed20.svg") format("svg");
+}
+body { font-family: Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif !important; }
+dd, dl, dt, form, h1, h2, h3, h4, h5, h6, hr, li, ol, p, td, th, ul { margin: 0px; padding: 0px; }
+html { line-height: 1.15; }
+body { margin: 0px; }
+article, aside, footer, header, nav, section { display: block; }
+a { background-color: transparent; }
+img { border-style: none; }
+button, input, optgroup, select, textarea { font-family: sans-serif; font-size: 100%; line-height: 1.15; margin: 0px; }
+button, input { overflow: visible; }
+@keyframes amFadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes amFadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes amFadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+@keyframes amFadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+@keyframes amSlideUpIn {
+0% { transform: translateY(100%); }
+100% { transform: translate(0px); }
+}
+@keyframes amSlideUpIn {
+0% { transform: translateY(100%); }
+100% { transform: translate(0px); }
+}
+@keyframes amSlideUpOut {
+0% { transform: translate(0px); }
+100% { transform: translateY(100%); }
+}
+@keyframes amSlideUpOut {
+0% { transform: translate(0px); }
+100% { transform: translateY(100%); }
+}
+@keyframes amZoomIn {
+0% { opacity: 0; transform-origin: 50% 50% 0px; transform: scale(0); }
+100% { opacity: 1; transform-origin: 50% 50% 0px; transform: scale(1); }
+}
+@keyframes amZoomIn {
+0% { opacity: 0; transform-origin: 50% 50% 0px; transform: scale(0); }
+100% { opacity: 1; transform-origin: 50% 50% 0px; transform: scale(1); }
+}
+@keyframes amZoomOut {
+0% { opacity: 1; transform-origin: 50% 50% 0px; transform: scale(1); }
+100% { opacity: 0; transform-origin: 50% 50% 0px; transform: scale(0); }
+}
+@keyframes amZoomOut {
+0% { opacity: 1; transform-origin: 50% 50% 0px; transform: scale(1); }
+100% { opacity: 0; transform-origin: 50% 50% 0px; transform: scale(0); }
+}
+@keyframes amSlideDownIn {
+0% { transform: translateY(-100%); }
+100% { transform: translate(0px); }
+}
+@keyframes amSlideDownIn {
+0% { transform: translateY(-100%); }
+100% { transform: translate(0px); }
+}
+@keyframes amSlideDownOut {
+0% { transform: translate(0px); }
+100% { transform: translateY(-100%); }
+}
+@keyframes amSlideDownOut {
+0% { transform: translate(0px); }
+100% { transform: translateY(-100%); }
+}
+*, *::after, *::before {  }
+html { font-size: 50px; }
+body { -moz-user-select: none; font-size: 0.32rem; background-color: rgb(242, 242, 242); }
+:focus, a { outline: medium none; }
+a { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+@keyframes ripple {
+100% { opacity: 0; transform: scale(2.5); }
+}
+@keyframes ripple {
+100% { opacity: 0; transform: scale(2.5); }
+}
+@keyframes spinner-anime {
+100% { transform: rotate(1turn); }
+}
+@keyframes spinner-anime {
+100% { transform: rotate(1turn); }
+}
+body { margin: 0px; padding: 0px; }
+@keyframes cirle-anim {
+100% { transform: rotate(1turn); }
+}
+@keyframes cirle-anim {
+100% { transform: rotate(1turn); }
+}
+@keyframes keyboard-cursor {
+0% { opacity: 1; }
+50% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes keyboard-cursor {
+0% { opacity: 1; }
+50% { opacity: 0; }
+100% { opacity: 1; }
+}
+.withdraw section { display: flex; margin: 0.24rem 0px; background-color: rgb(255, 255, 255); -moz-box-align: baseline; align-items: baseline; padding: 0.35rem 0px 0px 0.35rem; }
+.withdraw section:first-child { margin: 0px; display: block; }
+.withdraw section:first-child cite { float: left; }
+.withdraw section:first-child .bank-id { padding: 0.2rem; color: rgba(0, 0, 0, 0.5); }
+.withdraw section cite { font-style: normal; margin-right: 0.4rem; color: rgba(0, 0, 0, 0.6); font-size: 0.28rem; }
+.withdraw section div { -moz-box-flex: 1; flex: 1 1 0%; border-bottom: 0.01rem solid rgb(221, 221, 221); padding-bottom: 0.35rem; }
+.withdraw section input { height: 100%; border: 0px none; outline: 0px none; font-size: 0.32rem; width: 67%; }
+.withdraw section a { text-decoration: none; color: rgb(39, 130, 215); }
+.withdraw footer { bottom: 0.3rem; width: 100%; text-align: center; color: rgba(0, 0, 0, 0.5); }
+.withdraw .balance { margin: 0.35rem; font-size: 0.28rem; color: rgba(0, 0, 0, 0.5); }
+.withdraw .confirm-withdraw { display: block; width: 95%; background: rgb(39, 130, 215) none repeat scroll 0% 0%; color: rgb(255, 255, 255); margin: 1rem auto 0px; text-align: center; padding: 0.28rem 0px; border-radius: 0.05rem; }
+.withdraw .confirm-withdraw::before { content: "T+1 工作日到账"; position: absolute; margin-top: -0.7rem; margin-left: -0.25rem; color: rgba(0, 0, 0, 0.5); font-size: 0.26rem; }
+.withdraw .rule { text-align: justify; font-size: 0.28rem; color: rgba(0, 0, 0, 0.5); line-height: 1.4; padding: 0.25rem 0.5rem 0.55rem; }
