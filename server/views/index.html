@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>wt-server</title>
+    <style>
+        h3 { padding-left: 23px; } }
+        li { margin-top: 8px; }
+    </style>
+</head>
+
+<body>
+    <h3>沃土前端社区mock数据接口</h3>
+    <ol>
+        {% for item in list %}
+        <li><a target="-_blank" href="http://127.0.0.1:7777{{item.interfaceName}}">
+                    http://127.0.0.1:7777{{item.interfaceName}}</a></li>
+        {% endfor %}
+    </ol>
+</body>
+
+</html>
