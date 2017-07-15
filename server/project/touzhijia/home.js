@@ -13,8 +13,8 @@ module.exports = (ctx) => {
       'platformRecommend': [{
         id: Random.integer(1,100),
         name: Random.cname()+'贷',
-        img: 'yixindai.png',
-        desc: '安全评级 BB',
+        img: Random.pick(['yixindai.png','darendai.png']),
+        desc: '安全评级' + Random.pick(['AA','BB','CC','A','B','C']),
         returnRate: Random.float(5,20,2,2),
         time: Random.integer(5,100),
         limit: Random.float(1,100,1,1)
@@ -22,8 +22,8 @@ module.exports = (ctx) => {
       {
         id: Random.integer(1,100),
         name: Random.cname()+'贷',
-        img: 'yixindai.png',
-        desc: '安全评级 BB',
+        img:  Random.pick(['yixindai.png','darendai.png']),
+        desc: '安全评级' + Random.pick(['AA','BB','CC','A','B','C']),
         returnRate: Random.float(5,20,2,2),
         time: Random.integer(5,100),
         limit: Random.float(1,100,1,1)
