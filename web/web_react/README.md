@@ -17,7 +17,7 @@
 >     --common          //公共文件
 >     --components      //ui组件
 >     --reducers        //组件状态
->     --routes          //路由-组件容器
+>     --containers          //路由-组件容器
 >     --styles          //样式
 >     App.js            //入口
 >     index.tmpl.html   //模板
