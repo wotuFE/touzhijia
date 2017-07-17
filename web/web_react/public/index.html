@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Webpack Sample Project</title>
+  </head>
+  <body>
+    <div id='app'>
+    </div>
+  <script type="text/javascript" src="bundle.js"></script></body>
+  <script>
+      (function (doc, win) {
+          var docEl = doc.documentElement,
+          resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
+          recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+              if(clientWidth>=750){
+                  docEl.style.fontSize = '130px';
+              }else{
+                  docEl.style.fontSize = 130 * (clientWidth / 750) + 'px';
+              }
+          };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+</html>
