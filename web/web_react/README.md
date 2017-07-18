@@ -18,7 +18,7 @@
     xxx                 //组件文件夹 
     home                //组件文件夹 
       -actions           //组件指令
-      -omponents        //ui组件
+      -components        //ui组件
         -styles          //ui组件样式
       -containers        //组件容器
       -reducers          //组件状态
