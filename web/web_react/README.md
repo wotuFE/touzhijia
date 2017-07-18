@@ -10,15 +10,19 @@
 - - -
 
 - - -
- **轻量化结构**
->   --app     
+ **企业级应用结构**
+>   --common            //公共文件/组件 
+>   --static            //静态资源 
+>   --xxx               //组件文件夹 
+>   --xxx               //组件文件夹 
+>   --home              //组件文件夹 
+>     --actions           //组件指令
+>     --components        //ui组件
+>         --styles            //ui组件样式
+>     --containers        //组件容器
+>     --reducers          //组件状态
 
->     --actions         //组件指令
->     --common          //公共文件
->     --components      //ui组件
->     --reducers        //组件状态
->     --containers          //路由-组件容器
->     --styles          //样式
+
 >     App.js            //入口
 >     index.tmpl.html   //模板
 >     mainReducer.js    //状态树
@@ -29,7 +33,7 @@
 
 
 **ui渲染流程**
-> html --> App.js --> Routes.js --> routes文件夹中(容器组件) --> ui组件
+> html --> App.js --> Routes.js --> home文件夹中(containers容器组件) --> ui组件(components)
 
 
 **状态(state)流程**
