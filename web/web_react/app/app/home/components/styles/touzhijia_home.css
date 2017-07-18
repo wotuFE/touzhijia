@@ -1,0 +1,440 @@
+/* Code tidied up by ScrapBook */
+
+
+.def-item {
+	padding: 0.4rem 0.3rem 0.4rem 0px;
+	margin-left: 0.3rem;
+	border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+}
+
+.def-item img,
+.def-item span {
+	vertical-align: middle;
+}
+
+.def-item .def-title {
+	position: relative;
+	margin-bottom: 0.3rem;
+}
+
+.def-item .def-title img {
+	height: 0.42rem;
+	width: 1.31rem;
+	border: 0px none;
+	margin-right: 0.14rem;
+}
+
+.def-item .def-title .desc {
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 0.24rem;
+}
+
+.def-item .def-title .tag {
+	display: inline-block;
+	width: 0.88rem;
+	height: 0.32rem;
+	margin-right: 0.1rem;
+	line-height: 0.32rem;
+	font-size: 0.24rem;
+	color: rgba(0, 0, 0, 0.5);
+	border: 0.02rem solid rgba(0, 0, 0, 0.5);
+	text-align: center;
+	border-radius: 0.03rem;
+}
+
+.def-item .def-title .tag-newbie {
+	color: rgb(100, 158, 0);
+	border-color: rgb(100, 158, 0);
+}
+
+.def-item .def-title .tag-current {
+	color: rgb(255, 138, 16);
+	border-color: rgb(255, 138, 16);
+}
+
+.def-item dl {
+	position: relative;
+}
+
+.def-item dl dd {
+	display: inline-block;
+	width: 33.3%;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.def-item dl dd:first-child {
+	text-align: left;
+}
+
+.def-item dl dd:last-child {
+	text-align: right;
+	padding-right: .4rem;
+}
+
+.def-item dl dd span {
+	display: block;
+}
+
+.def-item dl dd span:first-child {
+	color: rgb(0, 0, 0);
+	font-size: 0.36rem;
+}
+
+.def-item dl dd span:last-child {
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 0.24rem;
+	margin-top: 0.06rem;
+}
+
+.def-item dl dd em {
+	font-size: 0.5rem;
+	color: rgb(255, 138, 16);
+}
+
+.def-item dl dd .sub {
+	font-size: 0.24rem;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+}
+
+.def-item dl dd .rate .sub {
+	color: rgb(255, 138, 16);
+	font-size: 0.28rem;
+}
+
+.def-item dl dd .left em {
+	color: rgb(0, 0, 0);
+	font-size: 0.36rem;
+}
+
+.def-item dl i {
+	font-style: normal;
+}
+
+.download {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	box-sizing: border-box;
+	height: 0.86rem;
+	line-height: 1rem;
+	background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%;
+	padding-left: 0.15rem;
+	padding-right: 0.15rem;
+	padding-top: 0.15rem;
+	z-index: 999;
+}
+
+.download i {
+	display: inline-block;
+	float: left;
+	color: rgb(255, 255, 255);
+	height: 0.6rem;
+	line-height: 0.6rem;
+	padding: 0px 0.2rem 0px 0.1rem;
+}
+
+.download dl {
+	float: left;
+	width: 4.1rem;
+	height: 1rem;
+}
+
+.download dl dt {
+	line-height: 0.3rem;
+	font-size: 0.24rem;
+	color: rgb(255, 138, 16);
+}
+
+.download dl dd {
+	line-height: 0.3rem;
+	font-size: 0.22rem;
+	color: rgb(255, 255, 255);
+}
+
+.download a {
+	display: inline-block;
+	width: 1.8rem;
+	height: 0.52rem;
+	line-height: 0.52rem;
+	text-align: center;
+	float: right;
+	font-size: 0.24rem;
+	background: rgb(255, 138, 16) none repeat scroll 0% 0%;
+	color: rgb(255, 255, 255);
+	border-radius: 0.1rem;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+li,
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	list-style: outside none none;
+}
+
+.home_wrap {
+	padding-bottom: 1.2rem;
+}
+/*.home_content_wrap {
+	height: calc(100% - 1.2rem);
+}*/
+.icon-wrap {
+	position: absolute;
+	right: 0.15rem;
+	top: 0.25rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	display: block;
+	z-index: 2;
+}
+
+.icon-wrap .icon-box {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 0.6rem;
+}
+
+.icon-wrap .icon-box i {
+	color: rgb(255, 255, 255);
+	font-size: 0.6rem;
+}
+
+.register-header-wrap {
+	position: relative;
+	min-height: 6.26rem;
+}
+
+.tzj-info {
+	position: relative;
+	background-color: rgb(255, 255, 255);
+}
+
+
+.tzj-info {
+    background: url('../../../static/images/home_header_register.png') no-repeat center;
+    background-size: 100%;
+    height: 4.2rem;
+}
+
+.tzj-info .character {
+	position: absolute;
+	top: 2rem;
+	width: 100%;
+	height: 1.4rem;
+	font-size: 0px;
+	white-space: nowrap;
+}
+
+.tzj-info .character-item {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.2rem;
+	width: 33.333%;
+	text-align: center;
+  color: #fff;
+}
+
+.tzj-info .character-item .img-box {
+	width: 0.7rem;
+	height: 0.7rem;
+	margin: 0px auto 0.1rem;
+}
+
+.tzj-info .character-item .img-box.qualification {
+	background: transparent url("") no-repeat scroll -5.06rem 0px / cover;
+}
+
+.tzj-info .character-item .text {
+	line-height: 1.4;
+	height: .5rem;
+	word-break: break-word;
+	text-align: center;
+}
+.tzj-info .character-item .text  span {
+	display: block;
+	white-space: normal;
+	text-align: center;
+	padding: 0 .3rem;
+}
+.tzj-info .learn-more {
+	position: absolute;
+	bottom: 0.2rem;
+	left: 50%;
+	transform: translateX(-50%);
+	color: rgb(255, 255, 255);
+	border: 0.01rem solid rgb(255, 255, 255);
+	width: 1.2rem;
+	height: 0.32rem;
+	font-size: 0.2rem;
+	text-align: center;
+	margin: 0px auto;
+	line-height: 0.32rem;
+}
+
+.tzj-info .learn-more i {
+	margin-left: 0.05rem;
+}
+
+.tzj-info .guide {
+	display: block;
+}
+
+.tzj-info img {
+	width: 100%;
+}
+
+.tzj-info-inner {
+	position: absolute;
+	left: 50%;
+	top: 1rem;
+	font-size: 0.24rem;
+	color: rgb(255, 255, 255, 0.7);
+	text-align: center;
+	transform: translateX(-50%);
+}
+
+.tzj-info-inner p {
+	line-height: 1.2;
+  color: #fff;
+}
+
+.tzj-info-number {
+	color: rgb(255, 255, 255);
+	font-size: 0.64rem;
+}
+
+.register-operation-wrap {
+	width: 100%;
+	height: 2.4rem;
+	padding-top: 0.4rem;
+	background-image: url("../../../static/images/home_header2.png");
+	background-repeat: no-repeat;
+	background-color: rgb(255, 255, 255);
+	background-size: contain;
+	text-align: center;
+}
+
+.register-operation-wrap .register-title-wrap {
+	margin-bottom: 0.22rem;
+}
+
+.register-operation-wrap .register-title-wrap p {
+	margin-bottom: 0.08rem;
+}
+
+.register-operation-wrap .register-title-wrap p:first-of-type {
+	font-size: 0.32rem;
+	color: rgb(0, 0, 0);
+}
+
+.register-operation-wrap .register-title-wrap p:nth-of-type(2) {
+	font-size: 0.24rem;
+}
+
+.register-operation-wrap .btn-bar {
+	position: relative;
+	margin-top: 0.2rem;
+	text-align: center;
+}
+
+.register-operation-wrap .btn-bar .operation-btn {
+	display: block;
+	width: 2.4rem;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	margin: 0px auto;
+	border-radius: 0.1rem;
+	background-color: rgb(255, 138, 16);
+	color: rgb(255, 255, 255);
+	font-size: 0.32rem;
+}
+
+.register-operation-wrap .btn-bar .check {
+	position: absolute;
+	bottom: 0px;
+	right: 0.2rem;
+	color: rgb(39, 130, 215);
+	font-size: 0.24rem;
+}
+
+.register-operation-wrap .btn-bar .check i {
+	margin-left: 0.05rem;
+	font-size: 0.24rem;
+}
+
+.recommend-lists {
+	position: relative;
+	min-height: 4.2rem;
+}
+
+.recommend-lists .am-list-header {
+	height: 0.88rem;
+	padding: 0px;
+}
+
+.recommend-title {
+	position: relative;
+	display: block;
+	padding: 0.4rem 0.3rem 0.2rem;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.recommend-title i {
+	position: absolute;
+	right: 0.15rem;
+	top: 60%;
+	font-size: 0.28rem;
+	transform: translateY(-50%);
+}
+
+.home_banner_wrap {
+	margin-top: 0.2rem;
+	height: 1.7rem;
+}
+
+.activities-banner .activities-banner-inner .activities-banner-link {
+	display: block;
+	height: 1.7rem;
+	width: 100%;
+}
+
+.activities-banner .activities-banner-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.banner_item1 {
+	background: url('../../../static/images/banner1.png') no-repeat center;
+    background-size: 100%;
+	height: 1.7rem;
+}
+
+.banner_item2 {
+	background: url('../../../static/images/banner2.png') no-repeat center;
+    background-size: 100%;
+	height: 1.7rem;
+}
+
+.footer-bg {
+	width: 100%;
+	height: 1.2rem;
+}
+
+.footer-bg img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
