@@ -10,25 +10,23 @@
 - - -
 
 - - -
- **企业级应用结构**
->   --common            //公共文件/组件 
->   --static            //静态资源 
->   --xxx               //组件文件夹 
->   --xxx               //组件文件夹 
->   --home              //组件文件夹 
->     --actions           //组件指令
->     --components        //ui组件
->         --styles            //ui组件样式
->     --containers        //组件容器
->     --reducers          //组件状态
-
-
->     App.js            //入口
->     index.tmpl.html   //模板
->     mainReducer.js    //状态树
->     Routes.js         //路由
-
->   --public            //打包
+ **企业级应用结构**  
+ 
+    common              //公共文件/组件  
+    static              //静态资源 
+    xxx                 //组件文件夹 
+    xxx                 //组件文件夹 
+    home                //组件文件夹 
+      -actions           //组件指令
+      -omponents        //ui组件
+        -styles          //ui组件样式
+      -containers        //组件容器
+      -reducers          //组件状态
+    App.js              //入口
+    index.tmpl.html     //模板
+    mainReducer.js      //状态树
+    Routes.js           //路由
+    public              //打包
 
 
 
