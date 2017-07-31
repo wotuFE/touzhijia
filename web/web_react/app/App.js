@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom'
-import Routes from './Routes';
 import antd from 'antd';
 
 
 
 //入口文件
 ReactDOM.render((
-        <Routes />
+        <h1>wotu-react</h1>
      ),
      document.getElementById('app')
 );
