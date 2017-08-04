@@ -10,28 +10,26 @@
 - - -
 
 - - -
- **企业级应用结构**  
- 
-    common              //公共文件/组件  
-    static              //静态资源 
-    xxx                 //组件文件夹 
-    xxx                 //组件文件夹 
-    home                //组件文件夹 
-      -actions           //组件指令
-      -components        //ui组件
-        -styles          //ui组件样式
-      -containers        //组件容器
-      -reducers          //组件状态
-    App.js              //入口
-    index.tmpl.html     //模板
-    mainReducer.js      //状态树
-    Routes.js           //路由
-    public              //打包
+ **轻量化结构**
+>   --app     
+
+>     --actions         //组件指令
+>     --common          //公共文件
+>     --components      //ui组件
+>     --reducers        //组件状态
+>     --routes          //路由-组件容器
+>     --styles          //样式
+>     App.js            //入口
+>     index.tmpl.html   //模板
+>     mainReducer.js    //状态树
+>     Routes.js         //路由
+
+>   --public            //打包
 
 
 
 **ui渲染流程**
-> html --> App.js --> Routes.js --> home文件夹中(containers容器组件) --> ui组件(components)
+> html --> App.js --> Routes.js --> routes文件夹中(容器组件) --> ui组件
 
 
 **状态(state)流程**
@@ -55,7 +53,7 @@
 > 每条指令都有特定的type，通常使用大写的字母来辨识 例如：{type：'OPEN_ROOM'} 不要重复.
 
 
-> 后续更新 搭建日期2017/7/5
+> 后续更新 搭建日期2017/7/5**
 
 
 
