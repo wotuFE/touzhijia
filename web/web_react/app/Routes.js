@@ -7,7 +7,6 @@ import PlatformPage from './platform/containers/PlatformPage';
 import DebtPage from './debt/containers/DebtPage';
 import AccountPage from './account/containers/AccountPage';
 
-import DemoPage1 from './demo1/DemoPage1';
 
 import { Provider, } from 'react-redux';
 import { createStore, applyMiddleware, } from 'redux';
@@ -21,7 +20,7 @@ export default function AppRoute() {
     <Provider store={store}>
       <HashRouter >
           <Switch>
-              <Route exact path="/" component={DemoPage1}/>
+              <Route exact path="/" component={HomePage}/>
               <Route path="/platform" component={PlatformPage}/>
               <Route path="/debt" component={DebtPage}/>
               <Route path="/account" component={AccountPage}/>

@@ -16,7 +16,7 @@ class HomePlatformItem extends Component{
 
           <div className="def-item">
               <div className="def-title">
-                  <img src="../static/images/yixindai.png" alt="壹心贷-logo" />
+                  <img src={require("../../static/images/yixindai.png")} alt="壹心贷-logo" />
                   <span className="desc">{data.desc}</span>
               </div>
               <dl className="def-content">

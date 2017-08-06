@@ -48,7 +48,7 @@ class AccountProperty extends Component{
                 <span className="convenience-tag-inner">
                   <span className="convenience-tag-text">快捷</span>
                 </span>
-                <img src="../static/images/rxdai.png" role="presentation" />
+                <img src={require("../../static/images/rxdai.png")} role="presentation" />
               </span>
               <span className="property grid">0.00</span>
               <span className="balance grid">0.00</span>
@@ -59,7 +59,7 @@ class AccountProperty extends Component{
                 <span className="convenience-tag-inner">
                   <span className="convenience-tag-text">快捷</span>
                 </span>
-                <img src="../static/images/zhubaodai.png" role="presentation" />
+                <img src={require("../../static/images/zhubaodai.png")} role="presentation" />
               </span>
               <span className="property grid">0.00</span>
               <span className="balance grid">0.00</span>

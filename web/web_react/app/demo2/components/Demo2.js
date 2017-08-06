@@ -4,6 +4,7 @@ class Demo2 extends Component {
 
     render() {
         const {homeState,changeState} = this.props;
+        console.log(this.props)
         return (
             <div className="demo2_main_wrap">
                 <h1 onClick={changeState}>子组件</h1>

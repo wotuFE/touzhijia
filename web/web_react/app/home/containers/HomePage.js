@@ -24,13 +24,16 @@ class HomePage extends Component{
 
 
   render() {
-    const { homeState } = this.props;
-    const platformRecommend = homeState.platformRecommend
-    const debtRecommend = homeState.debtRecommend
+    const { HomePageReducer,actions } = this.props;
+    const platformRecommend = HomePageReducer.homeDate.platformRecommend
+    const debtRecommend = HomePageReducer.homeDate.debtRecommend
+    console.log('====================================');
+    console.log(HomePageReducer);
+    console.log('====================================');
     return (
       <div className="home_wrap">
-        <div className="download" >
-          <i className="icon icon-cross"></i>
+        <div className={HomePageReducer.donwLoadViseble ? 'download' : 'hide'} >
+          <i className="icon icon-cross" onClick={() => actions.closeDownLoad()}></i>
           <dl>
             <dt>投之家APP</dt>
             <dd>荣获顶尖风投软银赛富、创东方投资入股</dd>
@@ -49,7 +52,7 @@ class HomePage extends Component{
 
 const mapStateToProps = (state) => {
   return {
-    homeState: state.HomePageReducer.homeDate,
+    HomePageReducer: state.HomePageReducer,
   };
 };
 

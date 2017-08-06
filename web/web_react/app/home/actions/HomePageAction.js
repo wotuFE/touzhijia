@@ -14,3 +14,9 @@ export const getHomeData = ()=>
       }
     });
   }
+
+export const closeDownLoad = () => {
+    return {
+        type: 'CLOSE_DOWN_LOAD',
+    }
+}

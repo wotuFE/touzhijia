@@ -15,7 +15,7 @@ class PlatformContentItem extends Component{
         <div className="def-item">
           <div className="def-title">
             <div><span className="quick-invest-tag"><i>快捷</i></span>
-              <img src="../static/images/erongsuo.png" alt="e融所-logo"/>
+              <img src={require("../../static/images/erongsuo.png")} alt="e融所-logo" />
               <span className="desc">安全评级 A</span>
             </div>
           </div>
