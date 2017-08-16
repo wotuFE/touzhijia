@@ -1,0 +1,26 @@
+.component_wrap {
+    background-color: #009a61;
+    width: 300px;
+    height: 300px;
+    margin: 0 50px;
+    color: #fff;
+    padding: 20px;
+    float: left;
+}
+
+.component_wrap .ant-btn {
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.component_wrap div{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.title {
+    margin: 0 !important;
+    font-size: 25px;
+}

@@ -27,9 +27,6 @@ class HomePage extends Component{
     const { HomePageReducer,actions } = this.props;
     const platformRecommend = HomePageReducer.homeDate.platformRecommend
     const debtRecommend = HomePageReducer.homeDate.debtRecommend
-    console.log('====================================');
-    console.log(HomePageReducer);
-    console.log('====================================');
     return (
       <div className="home_wrap">
         <div className={HomePageReducer.donwLoadViseble ? 'download' : 'hide'} >
